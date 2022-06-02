@@ -2,7 +2,7 @@ from aiogram import executor
 from aiogram.types import Message, CallbackQuery, PreCheckoutQuery, ContentType
 
 from newProject.config.Config import dp
-from core import Core
+from newProject.core import Core
 
 
 @dp.message_handler(commands=['start'])
