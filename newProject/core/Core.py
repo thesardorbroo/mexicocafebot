@@ -1,6 +1,6 @@
 from newProject.config.Config import db,bot,dp,menu_photo, PAYME_TOKEN,CLICK_TOKEN
 from aiogram.types import Message,CallbackQuery, PreCheckoutQuery, ContentType
-from keys.MyKeyboards import *
+from newProject.keys.MyKeyboards import *
 from texts.Text import *
 from details import Details
 from settings import MSettings

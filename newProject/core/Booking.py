@@ -4,9 +4,9 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from config.Config import bot,db,burger_photo,menu_photo
 from user.User import UserOB
 from texts.Text import botext, return_orders, final_check
-from keys.FoodsData import foods_keys, foods_data
-from keys.MyKeyboards import all_keys, remove, create_buttons
-from core import Core
+from newProject.keys.FoodsData import foods_keys, foods_data
+from newProject.keys.MyKeyboards import all_keys, remove, create_buttons
+from newProject.core import Core
 
 async def booking_foods(message: Message):
     user = await db.get_user(message.from_user.id)
