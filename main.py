@@ -1,9 +1,8 @@
 from aiogram import executor
 from aiogram.types import Message, CallbackQuery, PreCheckoutQuery, ContentType
 
-
 from newProject.config.Config import dp
-from newProject.core import Core
+from core import Core
 
 
 @dp.message_handler(commands=['start'])
