@@ -1,10 +1,10 @@
 from aiogram.types import Message
 
-from texts.Text import *
-from user.User import UserOB
-from keys.MyKeyboards import *
-from settings import MSettings
-from config.Config import bot,db
+from newProject.texts.Text import *
+from newProject.user.User import UserOB
+from newProject.keys.MyKeyboards import *
+from newProject.settings import MSettings
+from newProject.config.Config import bot,db
 
 
 async def addNewUser(message: Message, user: UserOB):

@@ -1,10 +1,10 @@
 from newProject.config.Config import db,bot,dp,menu_photo, PAYME_TOKEN,CLICK_TOKEN
 from aiogram.types import Message,CallbackQuery, PreCheckoutQuery, ContentType
 from newProject.keys.MyKeyboards import *
-from texts.Text import *
-from details import Details
-from settings import MSettings
-from core import Booking
+from newProject.texts.Text import *
+from newProject.details import Details
+from newProject.settings import MSettings
+from newProject.core import Booking
 
 async def pressed_start(message: Message):
     await db.delete_from_base(message.from_user.id)

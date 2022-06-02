@@ -1,8 +1,8 @@
-from user.User import UserOB
-from food.FoodClass import Food
-from food.DrinkClass import Drink
-from keys.FoodsData import foods_data
-from database.BotDB import SCDB
+from newProject.user.User import UserOB
+from newProject.food.FoodClass import Food
+from newProject.food.DrinkClass import Drink
+from newProject.keys.FoodsData import foods_data
+from newProject.database.BotDB import SCDB
 d2 = SCDB()
 
 botext = {

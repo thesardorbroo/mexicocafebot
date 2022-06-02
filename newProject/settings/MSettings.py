@@ -1,9 +1,9 @@
 from aiogram.types import Message
 
-from core.Core import user_is_booking
-from texts.Text import settings_text,botext
-from config.Config import bot,db,dp
-from user.User import UserOB
+from newProject.core.Core import user_is_booking
+from newProject.texts.Text import settings_text,botext
+from newProject.config.Config import bot,db,dp
+from newProject.user.User import UserOB
 
 async def change_username(message: Message, user: UserOB):
     await db.update_column(user.user_id,"username",message.text)

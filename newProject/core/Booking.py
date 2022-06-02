@@ -1,9 +1,9 @@
 from aiogram.types import Message,CallbackQuery
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-from config.Config import bot,db,burger_photo,menu_photo
-from user.User import UserOB
-from texts.Text import botext, return_orders, final_check
+from newProject.config.Config import bot,db,burger_photo,menu_photo
+from newProject.user.User import UserOB
+from newProject.texts.Text import botext, return_orders, final_check
 from newProject.keys.FoodsData import foods_keys, foods_data
 from newProject.keys.MyKeyboards import all_keys, remove, create_buttons
 from newProject.core import Core

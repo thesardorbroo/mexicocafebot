@@ -1,8 +1,8 @@
 from aiogram.types import InlineKeyboardMarkup,InlineKeyboardButton
 from aiogram.types import ReplyKeyboardMarkup,KeyboardButton
 
-from food.FoodClass import Food
-from food.DrinkClass import Drink
+from newProject.food.FoodClass import Food
+from newProject.food.DrinkClass import Drink
 
 taco_uz = ReplyKeyboardMarkup(resize_keyboard=True,row_width=2).add(
     KeyboardButton("🐤Taco tovuqli"),KeyboardButton("🐮Taco mol go`shtli"),
